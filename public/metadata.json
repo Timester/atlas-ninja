@@ -1,0 +1,575 @@
+[
+    {
+        "name": "Area",
+        "key": "area",
+        "type": "numeric",
+        "category": "Geography",
+        "description": "The size of the geographical region.",
+        "unit": "km2",
+        "scale": [
+            10000,
+            50000,
+            100000,
+            500000,
+            1000000,
+            5000000,
+            10000000
+        ],
+        "color": 1
+    },
+    {
+        "name": "Water area %",
+        "key": "water_area",
+        "type": "numeric",
+        "category": "Geography",
+        "description": "The percentage of the country's area covered by water.",
+        "unit": "%",
+        "scale": [
+            1,
+            2,
+            3,
+            4,
+            10
+        ],
+        "color": 1
+    },
+    {
+        "name": "Forest area %",
+        "key": "forest_area",
+        "type": "numeric",
+        "category": "Geography",
+        "description": "The percentage of the country's area covered by forests.",
+        "unit": "%",
+        "scale": [
+            5,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "color": 8
+    },
+    {
+        "name": "Population",
+        "key": "population",
+        "type": "numeric",
+        "category": "Demographics",
+        "description": "The whole number of inhabitants in the country or region.",
+        "unit": null,
+        "scale": [
+            5000000,
+            10000000,
+            25000000,
+            50000000,
+            75000000,
+            100000000,
+            200000000,
+            1000000000
+        ],
+        "color": 0
+    },
+    {
+        "name": "Population density",
+        "key": "population_density",
+        "type": "numeric",
+        "category": "Demographics",
+        "description": "The number of inhabitants per square kilometer.",
+        "unit": null,
+        "scale": [
+            10,
+            25,
+            50,
+            75,
+            125,
+            300,
+            500
+        ],
+        "color": 5
+    },
+    {
+        "name": "GDP (nominal)",
+        "key": "gdp_nominal",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The nominal gross domestic product of a country.",
+        "unit": "million USD",
+        "scale": [
+            10000,
+            30000,
+            50000,
+            100000,
+            250000,
+            500000,
+            1000000,
+            10000000
+        ],
+        "color": 4
+    },
+    {
+        "name": "GDP (nominal) per capita",
+        "key": "gdp_nominal_per_capita",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The nominal gross domestic product of a country divided by its population.",
+        "unit": "USD",
+        "scale": [
+            2500,
+            5000,
+            10000,
+            20000,
+            30000,
+            40000,
+            50000,
+            60000
+        ],
+        "color": 7
+    },
+    {
+        "name": "GDP (PPP)",
+        "key": "gdp_ppp",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The gross domestic product of a country based on purchasing power parity.",
+        "unit": "million USD",
+        "scale": [
+            10000,
+            30000,
+            50000,
+            100000,
+            250000,
+            500000,
+            1000000,
+            10000000
+        ],
+        "color": 8
+    },
+    {
+        "name": "GDP (PPP) per capita",
+        "key": "gdp_ppp_per_capita",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The gross domestic product of a country at purchasing power parity divided by its population.",
+        "unit": "USD",
+        "scale": [
+            2500,
+            5000,
+            10000,
+            20000,
+            30000,
+            40000,
+            50000,
+            60000
+        ],
+        "color": 11
+    },
+    {
+        "name": "Average annual wage",
+        "key": "average_wage",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The average annual salary for the working population of the country.",
+        "unit": "USD",
+        "scale": [
+            20000,
+            30000,
+            40000,
+            50000,
+            60000
+        ],
+        "color": 4
+    },
+    {
+        "name": "Annual inflation rate",
+        "key": "inflation_rate",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The annual percent change in consumer prices compared with the previous year's consumer prices.",
+        "unit": "%",
+        "scale": [
+            3,
+            5,
+            7,
+            10,
+            20,
+            100
+        ],
+        "color": 2
+    },
+    {
+        "name": "Military budget",
+        "key": "military_budget",
+        "type": "numeric",
+        "category": "Military",
+        "description": "The amount of financial resources dedicated to raising and maintaining armed forces.",
+        "unit": "million USD",
+        "scale": [
+            1000,
+            5000,
+            10000,
+            25000,
+            50000,
+            100000,
+            250000,
+            500000
+        ],
+        "color": 9
+    },
+    {
+        "name": "Military budget as % of GDP",
+        "key": "military_budget_of_gdp",
+        "type": "numeric",
+        "category": "Military",
+        "description": "The amount of financial resources dedicated to raising and maintaining armed forces as the percentage of the country's GDP.",
+        "unit": "%",
+        "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "color": 10
+    },
+    {
+        "name": "Military personnel",
+        "key": "military_personnel",
+        "type": "numeric",
+        "category": "Military",
+        "description": "The number of active soldiers serving in the country's armed forces.",
+        "unit": null,
+        "scale": [
+            1000,
+            5000,
+            10000,
+            50000,
+            100000,
+            300000,
+            1000000
+        ],
+        "color": 2
+    },
+    {
+        "name": "Military personnel per 1000 capita",
+        "key": "military_personnel_per_1000",
+        "type": "numeric",
+        "category": "Military",
+        "description": "The number of active soldiers serving in the country's armed forces for every 1000 inhabitants.",
+        "unit": null,
+        "scale": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            10,
+            50
+        ],
+        "color": 3
+    },
+    {
+        "name": "Memberships",
+        "key": "memberships",
+        "type": "multivalue_enum",
+        "category": "Politics",
+        "description": "Memberships of countries in international organizations.",
+        "value": [
+            {
+                "key": "eu",
+                "short_name": "EU",
+                "name": "European Union",
+                "description": "This state is a member of the European Union (EU), a political and economical union in Europe."
+            },
+            {
+                "key": "nato",
+                "short_name": "NATO",
+                "name": "North Atlantic Treaty Organization",
+                "description": "This state is a member of the North Atlantic Treaty Organization (NATO), a political and military alliance of nations."
+            },
+            {
+                "key": "oecd",
+                "short_name": "OECD",
+                "name": "Organisation for Economic Co-operation and Development",
+                "description": "This state is a member of the Organisation for Economic Co-operation and Development (OECD), an inter-govermental economic organisation."
+            },
+            {
+                "key": "g7",
+                "short_name": "G7",
+                "name": "Group Of Seven",
+                "description": "This state is a member of the Group Of Seven (G7), an inter-govermental political forum of some of the most advanced nations."
+            },
+            {
+                "key": "csto",
+                "short_name": "CSTO",
+                "name": "Collective Security Treaty Organization",
+                "description": "This state is a member of the Collective Security Treaty Organization (CSTO), an intergovermental military alliance."
+            }
+        ],
+        "color": 1
+    },
+    {
+        "name": "Life expectancy at birth",
+        "key": "life_expectancy",
+        "type": "numeric",
+        "category": "Demographics",
+        "description": "The number of years a person can expect to live on average.",
+        "unit": "years",
+        "scale": [
+            55,
+            60,
+            65,
+            70,
+            75,
+            80
+        ],
+        "color": 11
+    },
+    {
+        "name": "Total english speaking population",
+        "key": "english_speaking_population",
+        "type": "numeric",
+        "category": "Education",
+        "description": "The percentage of people who are able to hold a conversation in english.",
+        "unit": "%",
+        "scale": [
+            15,
+            30,
+            50,
+            60,
+            70,
+            80,
+            95
+        ],
+        "color": 0
+    },
+    {
+        "name": "Human Development Index",
+        "key": "hdi",
+        "type": "numeric",
+        "category": "Demographics",
+        "description": "A summary measure of average achievement in key dimensions of human development.",
+        "unit": null,
+        "scale": [
+            0.55,
+            0.7,
+            0.8
+        ],
+        "color": 1
+    },
+    {
+        "name": "Gini coefficient",
+        "key": "gini",
+        "type": "numeric",
+        "category": "Demographics",
+        "description": "A measure of statistical dispersion intended to represent the income inequality or the wealth inequality within a nation.",
+        "unit": "%",
+        "scale": [
+            30,
+            35,
+            40,
+            45,
+            50
+        ],
+        "color": 3
+    },
+    {
+        "name": "Internet users",
+        "key": "internet_users",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "Number of internet users in the country.",
+        "unit": null,
+        "scale": [
+            100000,
+            500000,
+            5000000,
+            50000000,
+            100000000
+        ],
+        "color": 11
+    },
+    {
+        "name": "Internet users %",
+        "key": "internet_users_percent",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "Percentage of the population who uses internet.",
+        "unit": "%",
+        "scale": [
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90
+        ],
+        "color": 11
+    },
+    {
+        "name": "Average internet speed",
+        "key": "avg_internet_speed",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "Average broadband internet connection speed by end-users.",
+        "unit": "Mbit/s",
+        "scale": [
+            50,
+            100,
+            150,
+            200
+        ],
+        "color": 4
+    },
+    {
+        "name": "Corruption Perception Index",
+        "key": "cpi",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "Perceived levels of public sector corruption in a country.",
+        "unit": null,
+        "scale": [
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "color": 12
+    },
+    {
+        "name": "Km of highways",
+        "key": "highways",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "Total length of controlled-access highways in the country.",
+        "unit": "km",
+        "scale": [
+            10,
+            100,
+            1000,
+            10000,
+            50000,
+            100000
+        ],
+        "color": 0
+    },
+    {
+        "name": "Km of railways",
+        "key": "railways",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "Total length of rail transport network size in the country.",
+        "unit": "km",
+        "scale": [
+            500,
+            1000,
+            5000,
+            10000,
+            50000,
+            100000
+        ],
+        "color": 0
+    },
+    {
+        "name": "Literacy rate",
+        "key": "literacy",
+        "type": "numeric",
+        "category": "Education",
+        "description": "The percentage of the population that can read and write.",
+        "unit": "%",
+        "scale": [
+            40,
+            60,
+            80,
+            90,
+            95,
+            98
+        ],
+        "color": 8
+    },
+    {
+        "name": "Unemployment rate",
+        "key": "unemployment",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "The percentage of the labor force without a job.",
+        "unit": "%",
+        "scale": [
+            2,
+            5,
+            8,
+            12,
+            20,
+            30
+        ],
+        "color": 9
+    },
+    {
+        "name": "Total paid annual leave",
+        "key": "annual_leave",
+        "type": "numeric",
+        "category": "Misc",
+        "description": "The total number of paid vacation days and public holidays annually.",
+        "unit": null,
+        "scale": [
+            10,
+            15,
+            20,
+            25,
+            30,
+            35,
+            40,
+            45
+        ],
+        "color": 12
+    },
+    {
+        "name": "Central bank base interest rate",
+        "key": "base_rate",
+        "type": "numeric",
+        "category": "Economics",
+        "description": "Annualized interest rate set by the central bank.",
+        "unit": "%",
+        "scale": [
+            1,
+            3,
+            6,
+            10,
+            15
+        ],
+        "color": 3
+    },
+    {
+        "name": "Fertility rate",
+        "key": "fertility_rate",
+        "type": "numeric",
+        "category": "Demographics",
+        "description": "The expected number of children born per woman in her child-bearing years.",
+        "unit": null,
+        "scale": [
+            1.6,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "color": 10
+    },
+    {
+        "name": "Driving side",
+        "key": "traffic_side",
+        "type": "enum",
+        "category": "Misc",
+        "description": "The practice in bidirectional traffic of keeping to the left side or to the right side of the road.",
+        "value": [
+            "Right",
+            "Left"
+        ],
+        "color": 1
+    }
+]

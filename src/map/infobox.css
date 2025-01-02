@@ -1,0 +1,133 @@
+.leaflet-top.leaflet-right {
+  z-index: 1001;
+}
+
+.leaflet-top.leaflet-right .leaflet-control.leaflet-bar {
+  border: none;
+}
+
+#infoBox {
+  width: 330px;
+  margin: 0;
+}
+
+#infoBox a {
+  color: rgb(52, 135, 243);
+  text-decoration: none;
+  display: inline-block;
+
+  line-height: inherit;
+  width: inherit;
+  height: inherit;
+  background-color: inherit;
+}
+
+#infoBox a:hover, #infoBox a:active {
+  color: rgb(243, 90, 52);
+}
+
+.info {
+  padding: 6px 8px;
+  margin: 25px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+  background: white;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#infoBox h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+#infoBox h5 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+#infoBox #infoMainTitle {
+  margin: 0;
+}
+
+#infoBox #infoSubTitle {
+  margin: 0 0 10px 0;
+}
+
+#infoBox .infoLabel {
+  font-weight: 800;
+}
+
+#infoBox #mainInfo {
+  margin: 5px 0 10px 0;
+  padding: 5px 0 0 0;
+  border-top: 1px solid #ccc;
+}
+
+#infoBox .infoSection {
+  margin: 5px 0 10px 0;
+  padding: 5px 0 0 0;
+  border-top: 1px solid #ccc;
+}
+
+#infoBox #title-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#infoBox .close-button {
+  width: 24px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: transparent;
+  border: none;
+}
+
+#infoBox #title-block #titles {
+  flex: 1;
+}
+
+#infoBox .close-button i {
+  color: rgb(59, 59, 59);
+  line-height: 35px;
+  opacity: 0.5;
+}
+
+#infoBox .close-button i:hover {
+  opacity: 1;
+}
+
+#infoBox #title-flag {
+  width: 35px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .leaflet-top.leaflet-right {
+      width: 100%;
+      margin-top: 60px;
+  }
+  
+  .leaflet-top.leaflet-right .leaflet-control.leaflet-bar {
+      width: calc(100% - 20px);
+      margin: 10px;
+      border: none;
+  }
+
+  #infoBox {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  #infoBox .infoSection {
+    display: none;
+  }
+}

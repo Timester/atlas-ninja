@@ -1,0 +1,20 @@
+{
+  "short_name": "AtlasNinja",
+  "name": "AtlasNinja - Numbers of the world",
+  "icons": [
+    {
+      "src": "atlasninja-logo96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "atlasninja-logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

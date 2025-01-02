@@ -1,0 +1,49 @@
+.leaflet-top.leaflet-left .leaflet-control.leaflet-bar {
+    border: none;
+}
+
+#data-selector {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#data-selector i {
+    line-height: 35px;
+    margin: 0 4px 0 4px;
+    color: rgb(59, 59, 59);
+}
+
+#data-scope-chooser-input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+    flex: 1;
+    margin-right: 10px;
+}
+
+#data-scope-choser-brand-name {
+    line-height: 35px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#share-url-button {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .leaflet-top.leaflet-left {
+        width: 100%;
+    }
+    
+    .leaflet-top.leaflet-left .leaflet-control.leaflet-bar {
+        width: calc(100% - 20px);
+        margin: 10px;
+        border: none;
+    }
+}

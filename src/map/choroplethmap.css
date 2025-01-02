@@ -1,0 +1,34 @@
+.mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapContainer, .leaflet-container {
+    height: 100%;
+}
+
+.loader-container {
+    padding: 10px;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #141414;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+
+    position: fixed;
+    top: -100%; 
+    right: -100%; 
+    left: -100%; 
+    bottom: -100%;
+    margin: auto;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

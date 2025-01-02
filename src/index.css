@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.leaflet-container {
+  font-family: 'Open Sans', sans-serif;
+}
